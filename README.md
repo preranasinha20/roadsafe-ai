@@ -45,4 +45,4 @@ streamlit run streamlit_app/app.py                              # optional Strea
 Large artefacts (raw/processed data, model binaries) are git-ignored; exported web data is committed so the site builds anywhere. Fixed seed 42 throughout.
 
 ## Method in one paragraph
-Clean, engineer scene/time features and expanding-window spatial history (only earlier years), split by time (train 2006-14, validate 2015, test 2016-17), compare six model families and five imbalance strategies, tune with Optuna, calibrate isotonically and tune class decision scales on 2015, evaluate once on the test years, then explain with SHAP/LIME and validate black spots on later years.
+Clean, engineer scene/time features and expanding-window spatial history (only earlier years), split by time (train 2006-14, validate 2015, test 2016-17), compare six model families and five imbalance strategies, tune with Optuna, calibrate isotonically and tune class decision scales on 2015, evaluate once on the test years and refine later
