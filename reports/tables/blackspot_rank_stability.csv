@@ -1,0 +1,8 @@
+radius_m,weights,top20_shared_with_final
+100,10/5/1 (final),0.8
+150,10/5/1 (final),1.0
+200,10/5/1 (final),0.85
+300,10/5/1 (final),0.6
+150,5/2/1,0.9
+150,20/5/1,0.85
+150,1/1/1 (counts only),0.8

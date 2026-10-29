@@ -1,0 +1,4 @@
+case,explained_class,shap_top5,lime_top5,shap_lime_top5_overlap,lime_stability_jaccard
+6109,Fatal,"Speed band, Speed limit, Hour of day, Road class, Local KSI history","Local authority, Vehicles involved, Speed limit, Light conditions, Speed band",0.4,0.5476190476190476
+17,Serious,"District KSI history, Vehicles involved, District severity score, Road type, Distance to hotspot","District KSI history, Vehicles involved, Local authority, Carriageway hazards, Weather",0.4,0.6071428571428571
+0,Slight,"Road surface, Hour of day, Vehicles involved, Road class, Hour (cos)","Vehicles involved, Carriageway hazards, Weather, Road type, Local authority",0.2,0.38392857142857145

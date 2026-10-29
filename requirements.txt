@@ -1,0 +1,17 @@
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+lightgbm==4.7.0
+xgboost==3.4.1
+shap==0.54.1
+lime==0.2.0.1
+imbalanced-learn==0.14.2
+hdbscan==0.8.44
+optuna==5.0.0
+matplotlib==3.11.2
+seaborn==0.13.2
+pyarrow==26.0.0
+joblib==1.6.0
+pyproj==3.8.0
+folium==0.20.0

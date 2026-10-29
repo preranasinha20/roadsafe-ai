@@ -1,0 +1,8 @@
+step,rows
+raw file,2047256
+drop duplicate accident ids,2047256
+drop rows with missing latitude/longitude,2047081
+keep coordinates inside UK bounding box,2047081
+drop rows with missing time of day,2046925
+keep valid speed limits (20-70 mph),2046852
+drop 'Unallocated' urban/rural rows,2046815

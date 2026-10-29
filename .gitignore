@@ -1,0 +1,14 @@
+# data too large for git: download from Kaggle (see README)
+data/raw/
+data/processed/
+models/*.joblib
+models/*.npy
+models/*.parquet
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# frontend
+app/node_modules/
+app/dist/
+.DS_Store

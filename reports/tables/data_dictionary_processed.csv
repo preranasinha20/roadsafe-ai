@@ -1,0 +1,57 @@
+column,dtype,missing_pct,n_unique,example
+Accident_Index,str,0.0,2046815,200501BS00001
+year,int64,0.0,13,2005
+date,datetime64[us],0.0,4748,2005-01-04 00:00:00
+severity,int64,0.0,3,1
+ksi,int64,0.0,2,1
+sev_weight,int64,0.0,3,5
+lat,float32,0.0,814984,51.489098
+lon,float32,0.0,1417552,-0.19117
+Number_of_Casualties,int64,0.0,52,1
+Did_Police_Officer_Attend_Scene_of_Accident,float64,0.014,3,1.0
+1st_Road_Class,object,0.0,6,A
+2nd_Road_Class,object,0.0,7,None
+Junction_Detail,object,0.036,9,Not at junction or within 20 metres
+Junction_Control,object,36.841,5,Auto traffic signal
+Light_Conditions,object,0.0,5,Daylight
+Road_Surface_Conditions,object,0.251,5,Wet or damp
+Road_Type,object,0.702,5,Single carriageway
+Weather_Conditions,object,2.085,8,Raining no high winds
+Urban_or_Rural_Area,object,0.0,2,Urban
+Carriageway_Hazards,object,0.0,6,None
+Special_Conditions_at_Site,object,0.0,8,None
+Pedestrian_Crossing-Human_Control,str,0.142,3,code_0
+Pedestrian_Crossing-Physical_Facilities,str,0.173,6,code_1
+la_district,str,0.0,416,Kensington and Chelsea
+Police_Force,str,0.0,51,Metropolitan Police
+road_key,str,0.0,42428,A_3218.0_Kensington and Chelsea
+cell,str,0.0,243341,10297_-39
+season,str,0.0,4,winter
+speed_band,str,0.0,3,low
+hour,int64,0.0,24,17
+month,int32,0.0,12,1
+dow,int64,0.0,7,1
+is_weekend,int64,0.0,2,0
+is_rush_hour,int64,0.0,2,1
+is_night,int64,0.0,2,0
+speed_limit,int64,0.0,6,30
+n_vehicles,int64,0.0,6,1
+is_urban,int64,0.0,2,1
+wet_surface,int64,0.0,2,1
+bad_weather,int64,0.0,2,1
+dark_and_unlit,int64,0.0,2,0
+junction_at_night,int64,0.0,2,0
+high_speed_rural,int64,0.0,2,0
+hour_sin,float64,0.0,22,-0.9659258262890683
+hour_cos,float64,0.0,22,-0.25881904510252063
+h_cell_n,float32,9.703,410,11.0
+h_cell_ksi_rate,float32,9.703,16075,0.1229622
+h_cell_score,float32,9.703,600,15.0
+h_road_n,float32,9.703,1841,50.0
+h_road_ksi_rate,float32,9.703,38954,0.12588327
+h_road_score,float32,9.703,2527,79.0
+h_la_n,float32,9.703,3203,772.0
+h_la_ksi_rate,float32,9.703,4670,0.14480484
+h_la_score,float32,9.703,3654,1270.0
+h_dist_hotspot_m,float32,9.703,1746833,1250.5603
+h_in_hotspot,int8,0.0,2,0

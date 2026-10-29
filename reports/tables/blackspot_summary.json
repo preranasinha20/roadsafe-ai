@@ -1,0 +1,31 @@
+{
+  "final_config": {
+    "method": "sliding-window peaks",
+    "radius_m": 150,
+    "min_accidents": 15,
+    "severity_weights": {
+      "Slight": 1,
+      "Serious": 5,
+      "Fatal": 10
+    }
+  },
+  "detection_years": [
+    2005,
+    2014
+  ],
+  "validation_years": [
+    2015,
+    2017
+  ],
+  "n_black_spots": 6000,
+  "top100_persistence_rate": 0.95,
+  "top100_median_ratio": 0.9280610987928062,
+  "top100_mean_ksi_share": 0.14156981044695918,
+  "overall_ksi_share": 0.14837195776582457,
+  "kde_overlap_top50": 1.0,
+  "dbscan_overlap_top50": 1.0,
+  "rolling_2005_11_vs_2012_14_persistence_top100": 0.97,
+  "rolling_median_ratio": 0.9449891067538128,
+  "control_rank1000_persistence": 0.85,
+  "top100_share_of_all_accidents": 0.012669764912518144
+}
