@@ -13,7 +13,7 @@ AUCML (TE7483) ESE case study · UK STATS19 2005-2017 (2.05 M accidents) · AIML
 | Metric | XGBoost, tuned scales | Majority baseline |
 |---|---|---|
 | Macro-F1 | **0.412** | 0.301 |
-| Recall Fatal / KSI | 0.174 / 0.373 | 0 |
+| Recall Fatal  | 0.174 / 0.373 | 0 |
 | ROC-AUC (OvR) | 0.698 | 0.500 |
 | Accuracy | 0.723 (argmax 0.821) | 0.821 |
 
